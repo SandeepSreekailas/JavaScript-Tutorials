@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://www.starbucks.in/assets/icon/logo.png">
+    <title>Document</title>
+    
+</head>
+<body>
+    
+
+    <script>
+    function greeting(name) { 
+        console.log(`Hello, ${name}!`); 
+    } 
+
+    function greeting2(name) { 
+        console.log(`hiiii, ${name}!`); 
+    }
+
+    function processUserInput(callback) { 
+        let n = prompt("Enter your name:"); 
+        callback(n); 
+    } 
+    // processUserInput(greeting); 
+    processUserInput(greeting2);
+
+    </script>
+     
+
+</body>
+</html>
